@@ -1,0 +1,29 @@
+
+transform_hidden_dim: 128
+feat_in_mlp: "none"
+gaussian_embeddings_lr: 0.0001
+shot_embeddings_lr: 0.0015
+shot_embeddings_dim: 92
+transform_n_fourier_freqs: 5
+transform_mlp_lr: 0.015
+transform_mlp_pos_coeff: 0.01
+transform_mlp_rot_coeff: 0.04
+gemb_smoothness_reg: 0.03
+gemb_smoothness_lambda: 1500.0
+semb_weight_decay: 0.0001
+gemb_weight_decay: 0.0004
+transform_mlp_weight_decay: 0.01
+stability_pos_reg: 0.0001
+stability_rot_reg: 0.001
+semb_noise: 0.0001
+gemb_noise: 0.01
+semb_init_scale: 0.01
+
+exp_lr_gemb: false
+exp_lr_mlp: false
+exp_lr_semb: false
+means_lr: 0.0003
+opacities_lr: 0.03
+quats_lr: 0.001
+scales_lr: 0.01
+sh0_lr: 0.0025

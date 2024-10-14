@@ -1,0 +1,46 @@
+exp_lr_gemb: false
+exp_lr_mlp: false
+exp_lr_semb: false
+feat_in_mlp: inject
+
+gaussian_embeddings_lr: 0.0001
+gemb_noise: 0.0
+gemb_smoothness_lambda: 700.0
+gemb_smoothness_reg: 0.7
+gemb_weight_decay: 0.01
+init_extent: 1.0
+init_num_pts: 100000
+max_steps: 5000
+
+means_lr: 0.0003
+opacities_lr: 0.03
+quats_lr: 0.001
+scales_lr: 0.01
+sh0_lr: 0.0025
+
+semb_init_scale: 0.001
+semb_noise: 0.0001
+semb_weight_decay: 0.01
+shot_embeddings_dim: 32
+shot_embeddings_lr: 0.0002
+
+stability_pos_reg: 0.05
+stability_rot_reg: 0.01
+
+#strategy:
+#  "default"
+#refine_every: 100
+#refine_start_iter: 800
+#refine_stop_iter: 3000
+
+transform_hidden_dim: 128
+transform_mlp_lr: 0.0005
+transform_mlp_pos_coeff: 0.02
+transform_mlp_rot_coeff: 0.3
+transform_mlp_weight_decay: 0.0001
+transform_n_fourier_freqs: 2
+transform_n_hidden_layers: 2
+
+use_embeddings_start_iter: 20
+use_quats_offset_with_normalization: false
+use_rotationMLP: true
