@@ -4,7 +4,7 @@ Blowin' in the Wild is a method for 4D Gaussian splatting with in-the-wild still
 We can reconstruct in-the-wild scenes, "blowin' in the wind," by optimizing per-shot embeddings, per-Gaussian embeddings, and a transformation MLP, in addition to 3DGS parameters.
 Upon reconstruction, we can see 4D novel view synthesis from the real-time viewer with manual or automatic looping dynamics by manipulating a per-shot embedding.
 
-I'd like you to please read the blog for more understanding.
+I'd like you to please read [the blog](https://tech.preferred.jp/ja/blog/blowin-in-the-wild-4dgs-from-still-images/) for more understanding.
 
 ![marigold_nvs](https://github.com/user-attachments/assets/712e09f2-64ad-47c5-b63f-e2f578917714)
 
